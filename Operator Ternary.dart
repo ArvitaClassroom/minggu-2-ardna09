@@ -1,9 +1,9 @@
-void main() {
+// ignore: file_names
+Future<void> main() async {
   var isThisWahyu = true;
 
   if (isThisWahyu) {
-    print("wahyu");
-  } else {
-    print("bukan");
-  }
+    print("ardana");
+    // ignore: dead_code
+  } else {}
 }
