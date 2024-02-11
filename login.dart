@@ -1,7 +1,7 @@
-import 'dart:io';
+import 'dart:io' show stdin;
 
 void main(List<String> args) {
   print("masukan password");
-  String inputText = stdin.readLineSync()!;
-  print("password: ${inputText}");
+  String ardana = stdin.readLineSync()!;
+  print("password: $ardana");
 }
