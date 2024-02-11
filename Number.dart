@@ -1,4 +1,5 @@
-void main() {
+// ignore: file_names
+Future<void> main() async {
   // declare an integer
   int num1 = 10;
 
